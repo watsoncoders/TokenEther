@@ -1,9 +1,6 @@
-EtherEx
+TokenEther
 =======
-[![Build Status](https://travis-ci.org/etherex/etherex.svg?branch=master)](https://travis-ci.org/etherex/etherex)
-[![Dependency Status](https://david-dm.org/etherex/etherex.svg?path=frontend)](https://david-dm.org/etherex/etherex?path=frontend)
-[![devDependency Status](https://david-dm.org/etherex/etherex/dev-status.svg?path=frontend)](https://david-dm.org/etherex/etherex?path=frontend#info=devDependencies)
-[![SlackIn](http://slack.etherex.org/badge.svg)](http://slack.etherex.org) [![Join the chat at https://gitter.im/etherex/etherex](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/etherex/etherex?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 Decentralized exchange built on Ethereum.
 
@@ -15,21 +12,6 @@ About
 This repository contains the source code that runs the exchange on Ethereum as a set of contracts, along with the UI, tests, tools and documentation.
 
 
-Components
-----------
-
-* contracts: Ethereum contracts in [Serpent](https://github.com/ethereum/serpent)
-* frontend: [React.js](https://github.com/facebook/react) UI
-* tests: EtherEx tests
-
-
-Requirements
-------------
-* [Serpent](https://github.com/ethereum/serpent) compiler by Vitalik Buterin
-* [go-ethereum](https://github.com/ethereum/go-ethereum) client by Jeffrey Wilcke
-* [pyethereum](https://github.com/ethereum/pyethereum) Python Ethereum client (tests only)
-* [PyEPM](https://github.com/etherex/pyepm) for deployment
-* [node](http://nodejs.org/) and [grunt](http://gruntjs.com/) for UI development
 
 
 Installation
@@ -38,7 +20,7 @@ Installation
 Start by cloning this repository.
 
 ```
-git clone https://github.com/etherex/etherex.git
+git clone https://github.com/deltatoken/TokenEther.git
 ```
 
 
@@ -56,7 +38,7 @@ pip install -r dev_requirements.txt
 py.test -vvrs
 ```
 
-Refer to [Serpent](https://github.com/ethereum/serpent) and [pyethereum](https://github.com/ethereum/pyethereum) for their respective usage.
+Refer to [Serpent](https://github.com/ethereum/serpenti) and [pyethereum](https://github.com/ethereum/pyethereum) for their respective usage.
 
 
 ### UI development
@@ -65,7 +47,7 @@ You will need a working node.js setup ([instructions](https://github.com/joyent/
 
 ```
 cd frontend
-npm install
+npm install -g
 grunt
 ```
 
@@ -77,7 +59,7 @@ Requires a local client (Go or C++) with JSONRPC, [Serpent](https://github.com/e
 
 ```
 cd contracts
-pyepm EtherEx.yaml
+pyepm TokenEther.yaml
 ```
 
 
@@ -270,4 +252,4 @@ TODO
 
 ## License
 
-Released under the MIT License, see LICENSE file.
+Released under the Apache License, see LICENSE file.
