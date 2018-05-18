@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - "5"
+before_install:
+  - cd frontend && npm install
+  - npm install -g grunt-cli
+install:
+  - cd .. && pip install --user -r dev_requirements.txt
+  - pip install --user -e .
+script:
+  - py.test -vvrs
+  - flake8
+after_script:
+  - cd frontend && grunt eslint
+notifications:
+  irc:
+    channels:
+      - "chat.freenode.net#etherex-dev"
+    use_notice: true
+    skip_join: true

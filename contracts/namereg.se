@@ -1,0 +1,28 @@
+# namereg.se -- Ethereum contract
+#
+# Copyright (c) 2014-2015 EtherEx
+#
+# This software may be modified and distributed under the terms
+# of the MIT license.  See the LICENSE file for details.
+
+#
+# Example NameReg contract
+#
+
+def register(key, value):
+    if !self.storage[key] or key == msg.sender:
+        self.storage[key] = value
+        self.storage[value] = key
+        return(1)
+    return(0)
+
+def unregister(key):
+    if key == msg.sender:
+        value = self.storage[key]
+        self.storage[key] = 0
+        self.storage[value] = 0
+        return(1)
+    return(0)
+
+def getname(key):
+    return(self.storage[key])

@@ -1,0 +1,8 @@
+# https://github.com/ethereum/pyethereum/tarball/develop
+ethereum
+https://github.com/ethereum/serpent/tarball/develop
+# ethereum-serpent
+pyepm
+flake8
+pytest
+pytest-xdist
