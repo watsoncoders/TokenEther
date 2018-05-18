@@ -1,0 +1,4 @@
+{
+  "tests/test_etherex.py": true, 
+  "tests/test_etx.py": true
+}
