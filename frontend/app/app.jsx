@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import {Router, Route, IndexRoute, useRouterHistory } from 'react-router';
 import { createHashHistory } from 'history';
 
-import EtherExApp from './components/EtherExApp';
+import EtherExApp from './components/TokenetherApp';
 
 import Trades from './components/Trades';
 import Markets from './components/Markets';
