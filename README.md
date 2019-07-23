@@ -249,7 +249,6 @@ TODO
 * More/new design elements
 * Implement new mockups / design elements
 
-
-## License
+* IF Anyone Wishes to support the developer - you can do so by donating via this link http://bit.ly/2Y08XAm
 
 Released under the Apache License, see LICENSE file.
