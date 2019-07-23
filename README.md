@@ -1,5 +1,6 @@
 TokenEther
 =======
+* IF Anyone Wishes to support the development of this project and others, and incourge more open source projects  - you can do so by donating via this link http://bit.ly/2JKZ8xd
 
 
 Decentralized exchange built on Ethereum.
