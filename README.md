@@ -249,6 +249,6 @@ TODO
 * More/new design elements
 * Implement new mockups / design elements
 
-* IF Anyone Wishes to support the developer - you can do so by donating via this link http://bit.ly/2Y08XAm
+* IF Anyone Wishes to support the development of this project and others, and incourge more open source projects  - you can do so by donating via this link http://bit.ly/2JKZ8xd
 
 Released under the Apache License, see LICENSE file.
